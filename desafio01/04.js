@@ -1,10 +1,11 @@
-var distanciaPercorrida = 700
-var tempo = 10
+var capital = 1000
+var taxa_fixa = 0.125
+var tempo = 3
 
-var velocidade = distanciaPercorrida / tempo
+var motante_calculo1 =  1 + taxa_fixa
 
-var conversao = velocidade * 3.6
+var motante_elevado = motante_calculo1 ** tempo
 
-var velocidade = conversao
+motantante_Final = capital * motante_elevado
 
-console.log (" A velocidade percorrida é: ", velocidade, "km")
+console.log (' O valor do juros composto é:', motantante_Final)
