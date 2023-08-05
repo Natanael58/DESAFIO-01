@@ -1,3 +1,4 @@
+// Valor de desconto
 var dinheiro = 80
 var  valor_tenis = 129.99
 var  valor01 = 100
